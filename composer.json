@@ -1,0 +1,21 @@
+{
+    "name": "linsheng24/tennis-kata",
+    "description": "Tennis Kata",
+    "license": "MIT",
+    "require": {
+        "php": "^7.1",
+        "phpunit/phpunit": "8.5.2"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
